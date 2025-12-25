@@ -1,10 +1,9 @@
 import React from 'react'
-import './Navbar.css'
 
 const Navbar=()=>{
   return (
-    <div className='Nav'>
-      <h1>Fetching Data from API</h1>
+    <div className='flex justify-center items-center bg-[#1d212e] text-white h-30'>
+      <h1 className='text-3xl font-bold'>Fetching Data from API</h1>
     </div>
   )
 }
